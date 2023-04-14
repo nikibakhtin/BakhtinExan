@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d2c33fd4640048778af0c8bf084f795b" Name="Diagram1">
+        <EntityTypeShape EntityType="bakhtinModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakhtinModel.Заказы" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakhtinModel.Измерения" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakhtinModel.Пользователи" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakhtinModel.Поставщики" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakhtinModel.ПунктыВыдачи" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakhtinModel.Роли" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakhtinModel.СоставЗаказа" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="bakhtinModel.Статусы" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="bakhtinModel.FK_Заказы_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="bakhtinModel.FK_Заказы_ПунктыВыдачи" ManuallyRouted="false" />
+        <AssociationConnector Association="bakhtinModel.FK_Заказы_Статусы" ManuallyRouted="false" />
+        <AssociationConnector Association="bakhtinModel.FK_СоставЗаказа_Заказы" ManuallyRouted="false" />
+        <AssociationConnector Association="bakhtinModel.FK_Пользователи_Роли" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
